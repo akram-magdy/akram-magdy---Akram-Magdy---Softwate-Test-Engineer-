@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18059" started-at="2021-03-25T23:14:11Z" finished-at="2021-03-25T23:14:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18059" started-at="2021-03-25T23:14:11Z" finished-at="2021-03-25T23:14:29Z">
+      <class name="tests.Gmail.validLoginTest">
+        <test-method status="PASS" signature="startDriver(java.lang.String)[pri:0, instance:tests.Gmail.validLoginTest@3532ec19]" name="startDriver" is-config="true" duration-ms="8736" started-at="2021-03-25T23:14:02Z" finished-at="2021-03-25T23:14:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="UserCanLogin()[pri:0, instance:tests.Gmail.validLoginTest@3532ec19]" name="UserCanLogin" duration-ms="18029" started-at="2021-03-25T23:14:11Z" finished-at="2021-03-25T23:14:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanLogin -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.Gmail.validLoginTest@3532ec19]" name="screenshotOnFailure" is-config="true" duration-ms="1" started-at="2021-03-25T23:14:29Z" finished-at="2021-03-25T23:14:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanLogin status=SUCCESS method=validLoginTest.UserCanLogin()[pri:0, instance:tests.Gmail.validLoginTest@3532ec19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method status="PASS" signature="stopDriver()[pri:0, instance:tests.Gmail.validLoginTest@3532ec19]" name="stopDriver" is-config="true" duration-ms="1317" started-at="2021-03-25T23:14:29Z" finished-at="2021-03-25T23:14:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.Gmail.validLoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
